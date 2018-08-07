@@ -19,21 +19,20 @@ document.onreadystatechange = function(){
 $(document).ready(() => {
     console.log('object');
     ScrollReveal().reveal('.first', {
-        easing: 'ease-in',
+        easing: 'steps(5)',
         delay: 200,
         rotate: {
             x: 20
         },
         viewFactor: 0.5,
         reset: true,
-        opacity: 0.1
     });
 })
 var options = {
     strings: ['Hi^1000, I\'m Shubham Yadav^1000 <br> <span class="f_28">(Web Developer)</span>'],
     typeSpeed: 120,
     backSpeed: 100,
-    startDelay: 1000,
+    startDelay: 3000,
     showCursor: true,
     contentType: 'html',
     cursorChar: " _",
