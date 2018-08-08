@@ -17,19 +17,38 @@ document.onreadystatechange = function(){
 }
 
 $(document).ready(() => {
-    console.log('object');
     ScrollReveal().reveal('.first', {
         easing: 'steps(5)',
         delay: 200,
         rotate: {
             x: 20
         },
-        viewFactor: 0.5,
+        viewFactor: 0.3,
         reset: true,
     });
+
+    var hobbyArray = [
+        'a crazy football fan', 
+        'one hell of a cook',
+        'a redditor', 
+        'love to watch tv shows'
+    ];
+
+    $('.card_body.hobby li').each(function(index){
+        $(this).on('mouseenter',function(){
+            $('.connect_card .card_foot p')
+                    .text(`${hobbyArray[index]}`)
+                    .addClass('fade');
+        });
+        $(this).on('mouseleave',function(){
+            $('.connect_card .card_foot p')
+                    .removeClass('fade')
+                    .text('');
+        });
+    })
 })
 var options = {
-    strings: ['Hi^1000, I\'m Shubham Yadav^1000 <br> <span class="f_28">(Web Developer)</span>'],
+    strings: ['>Hi^1000, I\'m Shubham Yadav;^1000 <br> <span class="f_28">&nbsp;&nbsp;&nbsp;a web developer</span>'],
     typeSpeed: 120,
     backSpeed: 100,
     startDelay: 3000,
