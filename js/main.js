@@ -34,7 +34,7 @@ $(document).ready(() => {
         'love to watch tv shows'
     ];
 
-    $('.card_body.hobby li').each(function(index){
+    $('.card_body.hobby li.col-3 div').each(function(index){
         $(this).on('mouseenter',function(){
             $('.connect_card .card_foot p')
                     .text(`${hobbyArray[index]}`)
