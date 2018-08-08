@@ -48,7 +48,7 @@ $(document).ready(() => {
     })
 })
 var options = {
-    strings: ['>Hi^1000, I\'m Shubham Yadav;^1000 <br> <span class="f_28">&nbsp;&nbsp;&nbsp;a web developer</span>'],
+    strings: ['>Hi^1000, I\'m Shubham Yadav;^1000 <br> <span class="f_28 fm_14">&nbsp;&nbsp;&nbsp;a web developer</span>'],
     typeSpeed: 120,
     backSpeed: 100,
     startDelay: 3000,
