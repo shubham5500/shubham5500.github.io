@@ -1,9 +1,16 @@
+width = $(document).width();
+if (width>768){
+    num_nb = Math.round(Math.sqrt(width * 15));
+}else{
+    num_nb = Math.round(Math.sqrt(width * 3));
+}
+
 particlesJS('particles-js',
   
 {
     "particles": {
       "number": {
-        "value": 120,
+        "value": num_nb,
         "density": {
           "enable": false,
           "value_area": 500
