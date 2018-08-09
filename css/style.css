@@ -720,6 +720,34 @@ body{
     .connect_card .card_body.hobby li div img{
         height: 24px;
     }
+    .project_card_wrapper{
+        display: none !important;
+    }
+    .mobile_project_card_wrapper .project_card{
+        width: 80%;
+        margin: auto;
+    }
+    .project_main .arrow_carousel.right {
+        right: 8px;
+        padding: 1px 7px;
+        top: 40%;
+        z-index: 1000;
+    }
+    .project_main .arrow_carousel.right img{
+       height: 12px;
+    }
+    .project_main .arrow_carousel.left {
+        left: 8px;
+        padding: 1px 7px;
+        top: 40%;
+        z-index: 1000;
+    }
+    .project_main .arrow_carousel.left img{
+       height: 12px;
+    }
+    body .project_main {
+        min-height: 250px;
+    }
 }
 
 @media screen and (min-width: 400px ) {
@@ -784,6 +812,7 @@ body{
 .card_body li div{
     width: 55px;
     height: 55px;
+    line-height: 30px;
     margin: auto;
     padding: 12px 10px;
     border-radius: 50%;
@@ -838,7 +867,6 @@ body{
 .c_p{
     cursor: pointer !important;
 }
-
 .jquery img{
     height: 50px;
 }
@@ -847,7 +875,9 @@ body{
     min-height: 500px;
     background: #1c2022;
 }
-
+.bg_default{
+    background: #1c2022;  
+}
 .project_card_wrapper{
     /* margin-top: -93%; */
 }
@@ -905,9 +935,12 @@ body{
     position: absolute;
     height: 90%;
     width: 1px;
-    background: rgba(128, 128, 128, 0.3);
+    background: rgba(112, 112, 112, 0.3);
     right: -7px;
     top: 1px;
+}
+button{
+    outline: none !important;
 }
 .btn_default{
     color: white;
@@ -916,6 +949,12 @@ body{
     border-radius: 1px;
     font-size: 12px;
     padding: 4px 12px;
+}
+.btn_default:hover{
+    box-shadow: 0px 0px 10px #ff0000;
+}
+.footer{
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
 }
 
 @media (min-width: 768px) {
