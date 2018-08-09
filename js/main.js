@@ -82,6 +82,10 @@ $(document).ready(function() {
     //     pagination: false
     // });
    
+  
+    var projectCardWidth = 91 - (Math.round(width * 0.0689655172) - 93);
+    console.log('projectCardWidth', projectCardWidth);
+    $('.project_card_wrapper').css('margin-top', `${-projectCardWidth}%`);
 
     var carousel = $(".project_card_wrapper").waterwheelCarousel({
         flankingItems: 2,
