@@ -2,7 +2,7 @@ width = $(document).width();
 if (width>768){
     num_nb = Math.round(Math.sqrt(width * 15));
 }else{
-    num_nb = Math.round(Math.sqrt(width * 3));
+    num_nb = Math.round(Math.sqrt(width * 2.5));
 }
 
 particlesJS('particles-js',
