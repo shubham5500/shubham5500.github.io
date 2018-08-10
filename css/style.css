@@ -686,6 +686,7 @@ body{
         padding: 1px 7px;
         top: 40%;
         z-index: 1000;
+        line-height: 24px;
     }
     .project_main .arrow_carousel.right img{
        height: 12px;
@@ -695,6 +696,7 @@ body{
         padding: 1px 7px;
         top: 40%;
         z-index: 1000;
+        line-height: 24px;
     }
     .project_main .arrow_carousel.left img{
        height: 12px;
@@ -706,6 +708,9 @@ body{
         height: 30px;
         width: 30px;
         margin: -15px 0px 0 -15px;
+    }
+    .home-header-title .typed-cursor {
+        font-size: 20px;
     }
 }
 
@@ -750,6 +755,9 @@ body{
 
 .connect_section_wrapper{
 
+}
+.mbminus{
+    margin-top: -10px !important;
 }
 .connect_row{
     background: #1c2022;

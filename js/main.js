@@ -5,13 +5,13 @@
 // });
 
 var options = {
-    strings: ['Hi^1000, I\'m Shubham Yadav;^1000 <br> <span class="f_28 fm_14">a web developer</span>'],
+    strings: ['<p class="d-inline-block pb-sm-4 mb-0">Hi,</p>^500 <br> <p class="mb-0 pt-sm-1 d-inline-block">I\'m Shubham Yadav;</p>^500 </br> <p class="f_28 mbminus mb-0 d-inline-block fm_16">a web developer</p>'],
     typeSpeed: 120,
     backSpeed: 100,
     startDelay: 2000,
     showCursor: true,
     contentType: 'html',
-    cursorChar: " _",
+    cursorChar: "_",
     loop: false,
     fadeOut: true,
     autoInsertCss: true
