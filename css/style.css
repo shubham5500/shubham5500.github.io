@@ -849,7 +849,7 @@ body{
 }
 .project_card{
     /* margin-top: -93%; */
-    height: 250px;
+    min-height: 250px;
     width: 100%;
     background: #1c2022;
     border: 1px solid rgba(41, 41, 41, 0.49);
