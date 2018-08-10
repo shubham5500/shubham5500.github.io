@@ -74,9 +74,13 @@ document.onreadystatechange = function(){
     }
 }
 
+function openLink(link){
+    window.location.href = link;
+}
+
 $(document).ready(function() {
   
-    var projectCardWidth = 91 - (Math.round(width * 0.0689655172) - 93);
+    var projectCardWidth = 91 - (Math.round(width * 0.0689655172) - 112);
     $('.project_card_wrapper').css('margin-top', `${-projectCardWidth}%`);
     var carousel = $(".project_card_wrapper").waterwheelCarousel({
         flankingItems: 2,
