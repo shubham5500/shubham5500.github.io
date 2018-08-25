@@ -72,23 +72,56 @@
     </div>
 </div>
 <body id="body">
-<section class="banner_section position-relative">
+ 
+<!-- <section>
   <style>
-   
+    .sven-header {
+        background: linear-gradient(to bottom, rgba(30, 65, 119, 0.5) 0%, rgba(0,0,0,1) 100%);
+        width: 100%;
+        height: 100vh;
+        z-index: 2;
+    }
+    .full-video {
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    #back-video {
+        min-width: 100%;
+        min-height: 100%;
+        overflow: hidden !important;
+        width: auto;
+        height: auto;
+        z-index: -1;
+    }
+    .sven-header .home-header-title{
+      color: white;
+      position: absolute;
+      margin-top: -76px;
+      margin-left: -251px;
+      top: 50%;
+      left: 50%;
+    }
+    .sven-header::after{
+      content: "";
+    }
   </style>
     <div class="sven-header">
         <div class="home-header-title">
             <span class="typing-element fm_18 f_50"></span>
         </div>
         <div class="full-video">
-            <video playsinline autoplay="" muted="" loop="" id="back-video">
+            <video autoplay="" muted="" loop="" id="back-video">
                 <source src="./images/main-video-min.mp4" type="video/mp4">
             </video>
         </div>
-        <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
     </div>
-</section>
-<!-- <section>
+</section> -->
+<section>
     <div class="container-fluid px-0">
         <div id="particles-js" class="row mx-0 background_overlay">
             <div class="col-sm-6 position-sm-relative position-absolute typed_text align-self-center text-white"> 
@@ -100,7 +133,7 @@
             </a>
         </div>
     </div>
-</section> -->
+</section>
 <section>
     <div class="container-fluid">
         <div class="row section_dark">
@@ -623,5 +656,6 @@
 <script src="./js/TweenMax.min.js"></script>
 <script src="./js/jquery.waterwheelCarousel.min.js"></script>
 <script src="./js/jquery.easing.1.3.js"></script>
+<!-- <script src="./js/app.js"></script> -->
 <script src="./js/main.js"></script>
 </html>
