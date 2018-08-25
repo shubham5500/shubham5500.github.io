@@ -1,9 +1,7 @@
-/*  */
+/* REUSEABLE  */
 body{
     font-family: 'Work Sans', sans-serif !important;
 }
-
-  
 .f_8{
     font-size: 8px !important;
 }
@@ -89,7 +87,6 @@ body{
 .fw_700{
     font-weight: 700 !important;
 }
-
 /* ------------------------ SECTION 1-------------------- */
 
 #particles-js{
@@ -104,7 +101,7 @@ body{
 }
 .background_overlay{
     height: 100vh;
-    background-image: url('../images/150.png');
+    background-image: url('../images/rioagua.gif');
     background-size: 100%;
     background-color: #000;
     width: 100%;  
@@ -124,6 +121,41 @@ body{
     margin-top: -45px;
     left: 50%;
     top: 50%;
+}
+
+.sven-header {
+    background: linear-gradient(to bottom, rgba(0, 22, 56, 0.5) 0%, #1c2022 100%);
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+.full-video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+#back-video {
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden !important;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.sven-header .home-header-title{
+  color: white;
+  position: absolute;
+  margin-top: -76px;
+  margin-left: -251px;
+  top: 50%;
+  left: 50%;
+}
+.sven-header::after{
+  content: "";
 }
 
 
@@ -149,9 +181,9 @@ body{
 	text-decoration: none;
 	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 
-	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
-	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
-	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+	-webkit-animation: ca3_fade_move_down 1.5s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 1.5s ease-in-out infinite;
+	animation:         ca3_fade_move_down 1.5s ease-in-out infinite;
 }
 
 
@@ -704,13 +736,19 @@ body{
     body .project_main {
         min-height: 250px;
     }
-    #particles-js .ca3-scroll-down-link {
+    .banner_section .ca3-scroll-down-link {
         height: 30px;
         width: 30px;
         margin: -15px 0px 0 -15px;
     }
     .home-header-title .typed-cursor {
         font-size: 20px;
+    }
+    body .sven-header .home-header-title{
+        margin-left: -93px;
+    }
+    .sven-header{
+        height: 225px !important;
     }
 }
 
@@ -737,7 +775,7 @@ body{
     width: 100px;
     height: 100px;
     margin: auto;
-    border: 1px solid #8080801f;
+    border: 1px solid rgba(128, 128, 128, 0.12156862745098039);
     border-radius: 2px;
 }
 

@@ -1,8 +1,9 @@
-// window.scrollBy({
-//     top: 0,
-//     left: 0,
-//     behavior: 'smooth'
-// });
+width = $(document).width();
+if (width>768){
+    num_nb = Math.round(Math.sqrt(width * 8));
+}else{
+    num_nb = Math.round(Math.sqrt(width * 2));
+}
 
 var options = {
     strings: ['<p class="d-inline-block pb-sm-4 mb-0">Hi,</p>^500 <br> <p class="mb-0 pt-sm-1 d-inline-block">I\'m Shubham Yadav;</p>^500 </br> <p class="f_28 mbminus mb-0 d-inline-block fm_16">a web developer</p>'],
