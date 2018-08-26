@@ -81,27 +81,17 @@ function openLink(link){
 
 $(document).ready(function() {
   
-    var projectCardWidth = 91 - (Math.round(width * 0.0689655172) - 112);
-    $('.project_card_wrapper').css('margin-top', `${-projectCardWidth}%`);
-    var carousel = $(".project_card_wrapper").waterwheelCarousel({
-        flankingItems: 2,
-        speed: 800,
-        animationEasing: 'easeOutQuint',
-        edgeFadeEnabled: true,
-        quickerForFurther: false,
-        opacityMultiplier: 1
-    });
-
     $('#mobile-carousel').owlCarousel({
-        items : 1,
+        items : 3,
         itemsMobile: [479,1],
         pagination: false,
-        navigation: true
+        navigation: true,
+        slideSpeed: 700
     });
     $('.arrow_carousel').on('click', function(){
         var owl = $("#mobile-carousel").data('owlCarousel');
         var className = $(this).attr('class').split(' ');
-        className[1] === 'left'? carousel.prev() || owl.prev() : carousel.next() || owl.next();
+        className[1] === 'left'?  owl.prev() : owl.next();
     });
 
     
@@ -111,7 +101,7 @@ $(document).ready(function() {
         rotate: {
             x: 20
         },
-        viewFactor: 0.3,
+        viewFactor: 0.2,
         reset: true,
     });
 
