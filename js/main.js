@@ -6,8 +6,8 @@ if (width>768){
 }
 
 var options = {
-    strings: ['<p class="d-inline-block pb-sm-4 mb-0">Hi,</p>^500 <br> <p class="mb-0 pt-sm-1 d-inline-block">I\'m Shubham Yadav;</p>^500 </br> <p class="f_28 mbminus mb-0 d-inline-block fm_16">a web developer</p>'],
-    typeSpeed: 120,
+    strings: ['<p class="d-inline-block pb-sm-4 mb-0">Hi,</p>^500 <br> <p class="mb-0 pt-sm-1 d-inline-block">I\'m Shubham Yadav</p>^500 </br> <p class="f_28 mbminus mb-0 d-inline-block fm_16">a web developer</p>'],
+    typeSpeed: 150,
     backSpeed: 100,
     startDelay: 2000,
     showCursor: true,
