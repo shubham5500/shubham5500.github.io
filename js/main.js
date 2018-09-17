@@ -76,7 +76,7 @@ document.onreadystatechange = function(){
 }
 
 function openLink(link){
-    window.location.href = link;
+    window.open(link,'_blank');
 }
 
 $(document).ready(function() {
