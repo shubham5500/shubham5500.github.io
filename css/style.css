@@ -91,7 +91,7 @@ body{
 
 #particles-js{
     z-index: 10;
-    width: 100%;    
+    width: 100%;
 }
 .overlay_div{
     height: 100vh;
@@ -104,8 +104,8 @@ body{
     background-image: url('../images/ezgif.com.gif');
     background-size: 100%;
     background-color: #000;
-    width: 100%;  
-    position: relative;  
+    width: 100%;
+    position: relative;
 }
 .background_overlay::before{
     content: " ";
@@ -205,7 +205,7 @@ body{
 }
 
  /* ---------------------- TYPED JS ----------------------- */
- 
+
 .typed-cursor{
     color: #c2beb8;
     font-size: 30px;
@@ -229,7 +229,7 @@ body{
 }
 
 
-.timeline {	
+.timeline {
     margin: 0;
     padding: 0;
     background: none;
@@ -565,7 +565,7 @@ body{
     background: #1c2022;
 }
 .bg_default{
-    background: #1c2022;  
+    background: #1c2022;
 }
 .project_card{
     height: 320px;
@@ -813,7 +813,7 @@ button{
     .direction_right .desc {
         position: relative;
         margin: 1em 1em 0 1em;
-        padding: 1em;  
+        padding: 1em;
         z-index: 15;
     }
 
@@ -833,8 +833,8 @@ button{
     }
     .section.section-dark{
         padding-left: 0;
-        padding-right: 0; 
-        padding-bottom: 0; 
+        padding-right: 0;
+        padding-bottom: 0;
     }
     .direction_right .ed1:before {
         left: 103px;
@@ -864,7 +864,7 @@ button{
         border-radius: 50%;
         width:70%;
         height:70%;
-    }    
+    }
     .time-wrapper .time{
         float: right;
     }
@@ -970,7 +970,17 @@ button{
 @media (min-width: 1200px) {
 
  }
-
+.content-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.all-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
