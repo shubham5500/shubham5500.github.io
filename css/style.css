@@ -948,6 +948,9 @@ button{
     body .project_card {
         height: 270px !important;
     }
+    .redux img{
+        height: 34px !important;
+    }
 }
 
 @media screen and (min-width: 400px ) {
@@ -981,6 +984,6 @@ button{
     align-items: center;
     justify-content: center;
 }
-
-
-
+.redux img{
+    height: 68px;
+}
