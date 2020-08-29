@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fafd768d-c0f7-4436-8b5b-2f922e678946" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="700" column="20" selection-start-line="700" selection-start-column="20" selection-end-line="700" selection-end-column="20" />
+            <state relative-caret-position="7935">
+              <caret line="700" column="24" selection-start-line="700" selection-start-column="24" selection-end-line="700" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -49,7 +48,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -57,15 +55,11 @@
               <item name="shubham5500.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shubham5500.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shubham5500.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham5500.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,16 +101,16 @@
       <workItem from="1579522782694" duration="462000" />
       <workItem from="1579716327803" duration="1076000" />
       <workItem from="1580119974807" duration="6000" />
-      <workItem from="1580280319131" duration="217000" />
+      <workItem from="1580280319131" duration="270000" />
+      <workItem from="1580280711045" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13565000" />
+    <option name="totallyTimeSpent" value="13632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -174,8 +168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="700" column="20" selection-start-line="700" selection-start-column="20" selection-end-line="700" selection-end-column="20" />
+        <state relative-caret-position="7935">
+          <caret line="700" column="24" selection-start-line="700" selection-start-column="24" selection-end-line="700" selection-end-column="24" />
         </state>
       </provider>
     </entry>
