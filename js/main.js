@@ -5,9 +5,9 @@ if (width>768){
     num_nb = Math.round(Math.sqrt(width * 2));
 }
 
-var options = {
-    strings: ['<p class="d-inline-block pb-sm-4 mb-0">Hi,</p>^500 <br> <p class="mb-0 pt-sm-1 d-inline-block">I\'m Shubham Yadav</p>^500 </br> <p class="f_28 mbminus mb-0 d-inline-block fm_16">a web developer</p>'],
-    typeSpeed: 150,
+const options = {
+    strings: ['<p class="d-inline-block pb-sm-4 mb-0">Hi,</p>^500 <br> <p class="mb-0 pt-sm-1 d-inline-block">I\'m Shubham Yadav</p>^500 </br> <p class="f_28 mbminus mb-0 d-inline-block fm_16">Javascript developer</p>'],
+    typeSpeed: 60,
     backSpeed: 100,
     startDelay: 2000,
     showCursor: true,
@@ -16,14 +16,14 @@ var options = {
     loop: false,
     fadeOut: true,
     autoInsertCss: true
-}
-var typed = new Typed(".typing-element", options);
+};
+const typed = new Typed(".typing-element", options);
 
 if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
 window.onmousewheel = document.onmousewheel = wheel;
 
 function wheel(event) {
-    var delta = 0;
+    let delta = 0;
     if (event.wheelDelta) delta = event.wheelDelta / 100;
     else if (event.detail) delta = -event.detail / 3;
 
@@ -32,13 +32,13 @@ function wheel(event) {
     event.returnValue = false;
 }
 
-var goUp = true;
-var end = null;
-var interval = null;
+let goUp = true;
+let end = null;
+let interval = null;
 
 function handle(delta) {
-    var animationInterval = 20; //lower is faster
-    var scrollSpeed = 20; //lower is faster
+    const animationInterval = 20; //lower is faster
+    const scrollSpeed = 20; //lower is faster
 
     if (end == null) {
         end = $(window).scrollTop();
@@ -48,8 +48,8 @@ function handle(delta) {
 
     if (interval == null) {
         interval = setInterval(function () {
-            var scrollTop = $(window).scrollTop();
-            var step = Math.round((end - scrollTop) / scrollSpeed);
+            const scrollTop = $(window).scrollTop();
+            const step = Math.round((end - scrollTop) / scrollSpeed);
             if (scrollTop <= 0 ||
                 scrollTop >= $(window).prop("scrollHeight") - $(window).height() ||
                 goUp && step > -1 ||
@@ -64,7 +64,7 @@ function handle(delta) {
 };
 
 document.onreadystatechange = function(){
-    var state = document.readyState;
+    const state = document.readyState;
     if(state == 'interactive' || state == 'loading'){
         document.getElementById('loader').style.visibility = 'visible';
         document.getElementById('body').style.visibility = 'hidden';
@@ -89,8 +89,8 @@ $(document).ready(function() {
         slideSpeed: 700
     });
     $('.arrow_carousel').on('click', function(){
-        var owl = $("#mobile-carousel").data('owlCarousel');
-        var className = $(this).attr('class').split(' ');
+        const owl = $("#mobile-carousel").data('owlCarousel');
+        const className = $(this).attr('class').split(' ');
         className[1] === 'left'?  owl.prev() : owl.next();
     });
 
@@ -105,10 +105,10 @@ $(document).ready(function() {
         reset: true,
     });
 
-    var hobbyArray = [
-        'a crazy football fan', 
+    const hobbyArray = [
+        'a crazy football fan',
         'one hell of a cook',
-        'a redditor', 
+        'a redditor',
         'love to watch tv shows'
     ];
 
