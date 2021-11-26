@@ -129,13 +129,8 @@ body {
     background: rgba(80, 93, 96, 0.34901960784313724);
 }
 
-.background_overlay {
+.banner_wrapper_section {
     height: 100vh;
-    background-image: url('../images/ezgif.com.gif');
-    background-size: 100%;
-    background-color: #000;
-    width: 100%;
-    position: relative;
 }
 
 .background_overlay::before {
